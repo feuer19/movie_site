@@ -1,0 +1,23 @@
+.img-size {
+  border-radius: 2em;
+}
+.movie-badge {
+  font-size: 15px;
+  background-color: #dc3545;
+  border-radius: 15px;
+  padding: 6px 10px;
+}
+.movie-title {
+  font-size: 65px;
+}
+.movie-number {
+  font-size: 20px;
+}
+.movie-detail-badge {
+  font-size: 13px;
+  background-color: #dc3545;
+  width: 120px;
+  padding: 6px 10px;
+  border-radius: 15px;
+  text-align: center;
+}
