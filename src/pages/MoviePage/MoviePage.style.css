@@ -2,7 +2,10 @@
   color: red;
   background-color: black;
   border-radius: 0.5em;
-  padding: 15px;
+  padding: 8px 6px;
+  text-align: center;
+  display: block;
+  font-size: 0.8rem;
   text-decoration: none;
   margin-right: 0.5em;
 }
@@ -24,4 +27,23 @@
 
 ReactPaginate:hover {
   border-radius: 1em;
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wap;
+  justify-content: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  list-style: none;
+}
+
+.r-page-item {
+  flex: 1 1 auto;
+  min-width: 30px;
+  max-width: 50px;
 }
